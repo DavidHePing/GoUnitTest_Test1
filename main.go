@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"GoUnitTest_Test1/domain"
+	"fmt"
+)
 
 func main() {
-	fmt.Println(123)
+	fmt.Println(domain.Add(1, 2))
 }
